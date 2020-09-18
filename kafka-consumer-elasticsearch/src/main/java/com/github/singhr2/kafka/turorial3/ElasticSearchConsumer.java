@@ -68,13 +68,13 @@ public class ElasticSearchConsumer {
 
     //########### Bonsai.io ###########
     // Full Access URL
-    //https://ljo0h46kpu:hwx2w7foud@kafka-course-849445253.ap-southeast-2.bonsaisearch.net:443
+    //  https://Who:What@host.bonsaisearch.net:443
     //scheme://username:pwd@hostname:port
     private static final String SCHEME_NAME = "https";
-    private static final String HOST_NAME = "kafka-course-849445253.ap-southeast-2.bonsaisearch.net";
+    private static final String HOST_NAME = "replaceWithHost.bonsaisearch.net";
     private static final String PORT_NUMBER = "443";
-    private static final String USER_NAME = "ljo0h46kpu";
-    private static final String PASSWORD = "hwx2w7foud";
+    private static final String USER_NAME = "replaceWithUserName";
+    private static final String PASSWORD = "replaceWithPassword";
 
     //########### KAFKA CONSUMER related ###########
     private static final String KAFKA_BOOTSTRAP_SERVERS = "127.0.0.1:9092";
