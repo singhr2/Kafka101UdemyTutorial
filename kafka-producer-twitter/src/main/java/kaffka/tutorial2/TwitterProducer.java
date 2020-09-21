@@ -33,10 +33,10 @@ public class TwitterProducer {
     // These secrets should be read from a config file
     //Check/Regenerate new values from https://developer.twitter.com/ , https://developer.twitter.com/en/apps/18049294
     //TODO Update these values from Twitter App
-    private static final String TWITTER_AUTHN_CONSUMER_API_KEY = "WI6Kx53DSECykd7nuHT0TOXkl";
-    private static final String TWITTER_AUTHN_CONSUMER_API_SECRET_KEY = "3RZvc0XCCP5dZwP76zyb4wHbNDPZTiK9U4rduLjGLmjsxGgixW";
-    private static final String TWITTER_AUTHN_ACCESS_TOKEN = "37818199-N19Odny8IKxauGZRkgunowY1LXFk5KhQUtCldP9lc";
-    private static final String TWITTER_AUTHN_ACCESS_TOKEN_SECRET = "TXZW5jJkXLl99hEstiy8gXGCcS5BRQbjRZJxRSZeAMyhz";
+    private static final String TWITTER_AUTHN_CONSUMER_API_KEY = "replace-with-consumer-key";
+    private static final String TWITTER_AUTHN_CONSUMER_API_SECRET_KEY = "replace-with-sec-key";
+    private static final String TWITTER_AUTHN_ACCESS_TOKEN = "replace-with-access-token";
+    private static final String TWITTER_AUTHN_ACCESS_TOKEN_SECRET = "replace-with-secret";
     private static final Authentication TWITTER_AUTHN = new OAuth1(TWITTER_AUTHN_CONSUMER_API_KEY, TWITTER_AUTHN_CONSUMER_API_SECRET_KEY, TWITTER_AUTHN_ACCESS_TOKEN, TWITTER_AUTHN_ACCESS_TOKEN_SECRET);
 
     //TODO Update the text to search here
